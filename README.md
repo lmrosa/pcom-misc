@@ -1,6 +1,10 @@
 # pcom-misc
 PCOM research miscellaneous
 
+## Unitronics PCOM specification
+https://unitronicsplc.com/Download/SoftwareUtilities/Unitronics%20PCOM%20Protocol.pdf
+
+
 ## Captures
 
 ```
