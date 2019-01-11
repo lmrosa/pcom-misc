@@ -4,6 +4,9 @@ PCOM research miscellaneous
 ## Unitronics PCOM specification
 https://unitronicsplc.com/Download/SoftwareUtilities/Unitronics%20PCOM%20Protocol.pdf
 
+## Snort Rules
+
+[v0.1](./snort/local.rules)
 
 ## Captures [(Pcaps Files)](./pcaps/)
 
