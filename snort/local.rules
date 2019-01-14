@@ -41,5 +41,4 @@ alert tcp any any -> any 20256 (flow:established; content:"SB"; offset: 9; depth
 alert tcp any 20256 -> any any (flow:established; content:"SB"; offset: 10; depth:2; msg:"PCOM/ASCII Reply - Write Memory Bits (SB)"; classtype:attempted-recon; sid: 1000039; rev:1;)
 alert tcp any any -> any 20256 (flow:established; content:"SW"; offset: 9; depth:2; msg:"PCOM/ASCII Request - Write Memory Integers (SW)"; classtype:attempted-recon; sid: 1000040; rev:1;)
 alert tcp any 20256 -> any any (flow:established; content:"SW"; offset: 10; depth:2; msg:"PCOM/ASCII Reply - Write Memory Integers (SW)"; classtype:attempted-recon; sid: 1000041; rev:1;)
-alert tcp any any -> any 20256 (flow:established; content:"SNL"; offset: 9; depth:2; msg:"PCOM/ASCII Request - Write Memory Longs (SNL)"; classtype:attempted-recon; sid: 1000040; rev:1;)
-alert tcp any 20256 -> any any (flow:established; content:"SNL"; offset: 10; depth:3; msg:"PCOM/ASCII Reply - Write Memory Longs (SNL)"; classtype:attempted-recon; sid: 1000041; rev:1;)
+alert tcp any any -> any 20256 (flow:established; content:"SNL"; offset: 9; depth:3; msg:"PCOM/ASCII Request - Write Memory Longs (SNL)"; classtype:attempted-recon; sid: 1000042; rev:1;)
