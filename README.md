@@ -1,14 +1,22 @@
 # pcom-misc
 PCOM research miscellaneous
 
-## Unitronics PCOM specification
-https://unitronicsplc.com/Download/SoftwareUtilities/Unitronics%20PCOM%20Protocol.pdf
+[PCOM security review paper](https://doi.org/10.1109/ACCESS.2019.2906926)
 
-## Snort Rules
+[PCOM Unitronics specification](https://unitronicsplc.com/Download/SoftwareUtilities/Unitronics%20PCOM%20Protocol.pdf)
 
-[v0.1](./snort/local.rules)
+[PCOM Wireshark Dissector](https://github.com/wireshark/wireshark/blob/master/epan/dissectors/packet-pcomtcp.c)
 
-## Captures [(Pcaps Files)](./pcaps/)
+[PCOM Snort Rules](./snort/local.rules)
+
+[PCOM Nmap NSE script](https://github.com/nmap/nmap/pull/1445)
+
+[PCOM Scapy layer](https://github.com/secdev/scapy/pull/1898)
+
+[PCOM Metasploit client](https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/auxiliary/scanner/scada/pcomclient.md)
+[PCOM Metasploit DoS](https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/admin/scada/pcom_command.rb)
+
+### Captures [(Pcaps Files)](./pcaps/)
 
 ```
 Get Rtc
