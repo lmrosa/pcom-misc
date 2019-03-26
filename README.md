@@ -2,6 +2,18 @@
 
 [PCOM security review paper](https://doi.org/10.1109/ACCESS.2019.2906926)
 
+If you want to cite this research:
+```
+@ARTICLE {pcom,
+    author={Rosa, Luis and Borges de Freitas, Miguel and Mazo, Sergey and Monteiro, Edmundo and Cruz, Tiago and Sim{\~o}es, Paulo},
+    doi={10.1109/ACCESS.2019.2906926},
+    journal={IEEE Access},
+    title={A Comprehensive Security Analysis of a SCADA Protocol: from OSINT to Mitigation},
+    year={2019},
+    month={March},
+}
+```
+
 # PCOM related misc
 
 [PCOM Unitronics specification](https://unitronicsplc.com/Download/SoftwareUtilities/Unitronics%20PCOM%20Protocol.pdf)
